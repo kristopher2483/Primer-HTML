@@ -1,0 +1,77 @@
+body{
+
+    margin: 0;
+}
+main{
+display: block;
+
+}
+header, footer {
+ border-style: solid;
+ border-color: red;
+}
+
+
+
+.contenedor_principal{
+
+    border-style: solid;
+    border-color: blue;
+   
+
+}
+
+main{
+
+    border-style: solid;
+    border-color: green;
+    border-width: 1px ;
+   }
+
+   article{
+
+    border-style: solid;
+    border-color: brown;
+    border-width: 1px ;
+   }
+
+   
+   .mansaje_chat{
+
+    border-style: solid;
+    border-color: red;
+    border-width: 1px ;
+   }
+
+   .comentarios{
+
+    border-style: solid;
+    border-color: red;
+    border-width: 1px ;
+   }
+
+.lista_menu{
+
+list-style: none;
+}
+
+.lista_menu li {
+
+margin-right: 25px;
+
+}
+
+
+.contenedor_principal{
+
+    display: inline-block;
+    grid-template-columns: 65% 35%;
+
+}
+
+.contenedor_principal main{
+
+    width: 50%;
+    justify-content: center;
+
+}
